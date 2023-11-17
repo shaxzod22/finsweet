@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/normalize.css">
+    <link rel="stylesheet" href="./../css/main.css">
+    <title>Finsweet</title>
+</head>
+
+<body>
+    <div class="loading none">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container header__container">
+            <a href="./index.html" class="header__logo__link">
+                <img src="./../img/Logo.svg" alt="logo image" class="header__logo__img" width="140" height="28">
+            </a>
+
+            <div class="header__navbar">
+                <ul class="header__navbar__list">
+                    <li class="header__nav__item">
+                        <a href="./../index.html" class="header__navbar__link">Home</a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="./business.html" class="header__navbar__link">Business</a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="./allposts.html" class="header__navbar__link">All news</a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="./register.html" class="header__navbar__link">Register</a>
+                    </li>
+                </ul>
+
+                <button class="header__navbar__btn">Login</button>
+            </div>
+            <ul class="header__burger__list ">
+                <li class="header__burger__item"></li>
+                <li class="header__burger__item"></li>
+                <li class="header__burger__item"></li>
+            </ul>
+        </div>
+    </header>
+    <section class="register">
+        <div class="register__container container">
+            <h2 class="register__heading">Register</h2>
+
+            <form class="register__form">
+                <input type="text" placeholder="Firstname" class="register__input register__firstname">
+                <p class="register__error none">error</p>
+                <input type="text" placeholder="Lastname" class="register__input register__lastname">
+                <p class="register__error none">error</p>
+                <input type="text" placeholder="Username" class="register__input register__username">
+                <p class="register__error none">error</p>
+                <input type="password" placeholder="Password" class="register__input register__password">
+                <p class="register__error none">error</p>
+                <input type="password" placeholder="Confirm password" class="register__input register__repassword">
+                <p class="register__error none">error</p>
+
+                <button class="register__btn">Register</button>
+            </form>
+
+            <ul class="register__user__list">
+
+                <li class="register__user__item">
+                    <p class="register__user__id">User Id: <span class="register__user__id__span">1</span></p>
+                    <img src="./../img/account.png" alt="account image" class="register__user__img" width="150" height="150">
+                    <p class="register__user__info">Firstname: <span class="register__user__info__span">sdvsdv</span></p>
+                    <p class="register__user__info">Lastname: <span class="register__user__info__span">sdvsdv</span></p>
+                    <p class="register__user__info">Username: <span class="register__user__info__span">sdvv</span></p>
+                </li>
+
+
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <ul class="footer__left__side__list">
+                <li class="footer__left__item">Finstreet 118 2561 Fintown</li>
+                <li class="footer__left__item">Hello@finsweet.com 020 7993 2905</li>
+            </ul>
+
+            <ul class="footer__right__directions__list">
+                <li class="footer__right__item"><img src="./../img/facebook.png" alt="facebook icon" class="footer__direction__img" width="16" height="16"></li>
+                <li class="footer__right__item"><img src="./../img/twitter.png" alt="twitter icon" class="footer__direction__img" width="16" height="16"></li>
+                <li class="footer__right__item"><img src="./../img/instagram.png" alt="instagram icon" class="footer__direction__img" width="16" height="16"></li>
+                <li class="footer__right__item"><img src="./../img/interest.png" alt="interest icon" class="footer__direction__img" width="16" height="16"></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

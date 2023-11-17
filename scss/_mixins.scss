@@ -1,0 +1,16 @@
+@mixin df($direction:row, $align:flex-start, $justify:start) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+@mixin btn($width, $height, $color, $bgc, $brad, $cursor:pointer) {
+    width: $width;
+    height: $height;
+    color: $color;
+    background-color: $bgc;
+    outline: none;
+    cursor: $cursor;
+    border-radius: $brad;
+}
